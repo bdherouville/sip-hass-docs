@@ -23,7 +23,7 @@ docker exec -it addon_b35499aa_asterisk asterisk -rvvvvddd
 
 The request got messed up and returns a `400: Bad Request` error.
 
-This could be because your endpoint config is invalid.
+This could be because your endpoint config is invalid. For example an accentuated character in the remote device configuration : ("Téléphone Bob")
 
 :::caution
 
